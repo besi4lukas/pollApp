@@ -8,15 +8,14 @@ export const PollSelect = ({setItems, items}) => {
     return (
         <>
             <div class="field">
-                <label class="label">Number of Items to Poll</label>
                 <div class="control">
                     <div class="select">
                         <select onChange={onSelectChange} value={items}>
-                            <option value={0}>Select dropdown</option>
-                            <option value={1}>1</option>
-                            <option value={2}>2</option>
-                            <option value={3}>3</option>
-                            <option value={4}>4</option>
+                            <option value={0}>No Items to Poll</option>
+                            <option value={1}>Poll 1 Item</option>
+                            <option value={2}>Poll 2 Items</option>
+                            <option value={3}>Poll 3 Items</option>
+                            <option value={4}>Poll 4 Items</option>
                         </select>
                     </div>
                     

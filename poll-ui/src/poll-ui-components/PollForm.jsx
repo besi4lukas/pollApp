@@ -1,5 +1,5 @@
 import React from "react";
-
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const PollForm = () => {
     return (
@@ -9,13 +9,13 @@ export const PollForm = () => {
                 <div class="control has-icons-left">
                     <input class="input" type="email" placeholder="Email" />
                     <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
+                        {/* <FontAwesomeIcon icon="fa-solid fa-envelope" /> */}
                     </span>
                 </div>
             </div>
             <div class="field">
                 <div class="control">
-                    <button class="button is-medium is-link is-fullwidth">Submit - To Create Poll</button>
+                    <a href='/' class="button is-medium is-link">Submit - To Create Poll</a>
                 </div>
             </div>
         </div>
